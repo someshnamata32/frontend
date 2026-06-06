@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  transition: all 0.3s ease;
+}
+
+.dark-mode {
+  background-color: #0f172a;
+  color: white;
+}
+
+.dark-mode header {
+  background-color: #111827;
+  color: white;
+}
+
+.dark-mode input {
+  background-color: #1f2937;
+  color: white;
+  border-color: #4b5563;
+}
+
+.dark-mode input::placeholder {
+  color: #d1d5db;
+}
+
+.dark-mode .bg-white {
+  background-color: #1f2937;
+  color: white;
+}
+
+.dark-mode .text-gray-600 {
+  color: #d1d5db;
+}
